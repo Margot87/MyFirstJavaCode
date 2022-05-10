@@ -1,0 +1,13 @@
+public class Task {
+    public static void main(String[] args) {
+        int height = 134;
+        int weight = 35;
+
+        if(height >150 && weight < 180){
+            System.out.println("Zapnij pasy");
+        }
+        else{
+            System.out.println("Niestety nie możesz jechać");
+        }
+    }
+}
